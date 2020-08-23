@@ -1,4 +1,3 @@
-
 --light theme
 local theme = {
     Tab_Color = Color3.fromRGB(255, 255, 255),
@@ -697,7 +696,7 @@ function library:CreateTab(text, desc, mode)
 		TextBox.Parent = container
 		TextBox.BackgroundColor3 = theme.TextBox_Color
 		TextBox.BorderSizePixel = 0
-		Text= UDim2.new(0, 0, 0.818181813, 0)
+		TextBox.Position = UDim2.new(0, 0, 0.818181813, 0)
 		TextBox.Size = UDim2.new(0, 185, 0, 30)
 		TextBox.ClearTextOnFocus = false
 		TextBox.Font = Enum.Font.SourceSansLight
