@@ -284,7 +284,7 @@ function library:CreateTab(text, desc, mode)
         ToggleBox.Parent = Toggle
         ToggleBox.BackgroundColor3 = theme.Toggle_Box_Color
         ToggleBox.BorderColor3 = theme.Toggle_Border_Color
-        ToggleBox.Position = UDim2.new(0.0416216031, 0, 0.166666672, 0)
+        ToggleBox.Position = UDim2.new(0.0716216031, 0, 0.166666672, 0)
         ToggleBox.Size = UDim2.new(0, 20, 0, 20)
 
         ToggleInner.Name = "ToggleInner"
@@ -697,7 +697,7 @@ function library:CreateTab(text, desc, mode)
 		TextBox.Parent = container
 		TextBox.BackgroundColor3 = theme.TextBox_Color
 		TextBox.BorderSizePixel = 0
-		TextBox.Position = UDim2.new(0, 0, 0.818181813, 0)
+		Text= UDim2.new(0, 0, 0.818181813, 0)
 		TextBox.Size = UDim2.new(0, 185, 0, 30)
 		TextBox.ClearTextOnFocus = false
 		TextBox.Font = Enum.Font.SourceSansLight
